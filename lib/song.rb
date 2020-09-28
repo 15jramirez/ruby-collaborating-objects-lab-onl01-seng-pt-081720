@@ -16,6 +16,7 @@ class Song
     filename_array = filename.split (" - ")
      song = Song.new(filename_array[1]) 
      artist = filename_array[0]
+     binding.pry
      song.artist_name = artist
      song
   end
