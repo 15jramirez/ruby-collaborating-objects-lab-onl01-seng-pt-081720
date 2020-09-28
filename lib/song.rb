@@ -18,7 +18,6 @@ class Song
      artist = filename_array[0]
      binding.pry
      song.artist = artist 
-     song.artist_name = artist
      song
   end
   
